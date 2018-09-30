@@ -4,3 +4,8 @@ require "sinatra/activerecord/rake"
 task :console do
   Pry.start
 end
+
+namespace :db
+task :seed do
+
+end
